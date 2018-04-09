@@ -12,7 +12,7 @@ font = {'family': 'monospace',
         'weight': 'bold',
         'size': 8,
         }
-fig = plt.figure(figsize=(8,5))
+fig = plt.figure(figsize=(10,6))
 plt.rc('grid', linestyle='dotted', color='limegreen', linewidth = 1)
 plt.rcParams['xtick.labelsize'] = 10
 plt.rcParams['ytick.labelsize'] = 10
@@ -35,7 +35,7 @@ b = np.ones(6)
 b[0] = 0.5
 b[1] = 0.7
 b[4] = 0.7
-b[5] = 0.5
+b[5] = 0.6
 a[33] = 0.01
 a[81] = 0.005
 c[22] = 0.02
