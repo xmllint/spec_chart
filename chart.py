@@ -2,16 +2,16 @@ import random
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
-from matplotlib import style
 import warnings
 warnings.filterwarnings(action='ignore')
 
-style.use('dark_background')
+plt.style.use('dark_background')
 font = {'family': 'monospace',
         'color':  'limegreen',
         'weight': 'bold',
-        'size': 8,
+        'size': 10,
         }
+
 fig = plt.figure(figsize=(8,5))
 plt.rc('grid', linestyle='dotted', color='limegreen', linewidth = 1)
 plt.rcParams['xtick.labelsize'] = 10
